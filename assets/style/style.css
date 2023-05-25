@@ -265,3 +265,59 @@
             }
     }
 }
+/* section-contact */
+.contact {
+    background-color: #131a36;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .contact .phone,
+  .contact .address,
+  .contact .email {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact .phone img,
+  .contact .address img,
+  .contact .email img {
+    border-radius: 50%;
+   
+  }
+  
+  .contact h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+   
+  }
+  
+  .contact
+  a {
+    color: #dfdfdf;
+    font-size: 14px;
+    font-weight: bold;
+   
+  }
+  
+  .contact .address img {
+    margin: 40px;
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #e93656;
+  }
+  .contact .phone img,
+  .contact .email img {
+    margin: 40px;
+    border: 2px dashed #ffffff;
+    border-radius: 50%;
+    padding: 30px;
+  }
