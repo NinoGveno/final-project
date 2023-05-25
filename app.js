@@ -27,4 +27,50 @@ window.addEventListener('scroll', function() {
       }
     }
   });
- 
+// 
+
+  const slide = document.querySelectorAll(".quote");
+  const buttons = document.querySelectorAll(".rectangle");
+  
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const slideNumber = button.getAttribute("data-slide");
+  
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+  
+      const slideToShow = document.querySelector(
+        `.quote[data-slide="${slideNumber}"]`
+      );
+      slideToShow.classList.add("active");
+    });
+  });
+  
+  const listItems = document.querySelectorAll(".list-item");
+  const projectItems = document.querySelectorAll(".project");
+  
+  listItems.forEach((item, index) => {
+    item.addEventListener("click", () => {
+      listItems.forEach((listItem) => {
+        listItem.classList.remove("active");
+      });
+      item.classList.add("active");
+  
+      const category = item.innerText;
+  
+      projectItems.forEach((project, projectIndex) => {
+        if (category === "All") {
+          project.style.display = "block";
+        } else if (projectIndex === index - 1) {
+          project.style.display = "block";
+        } else {
+          project.style.display = "none";
+        }
+      });
+    });
+  });
+  
+  const logoContainer = document.querySelector(".logo-container");
+  
+  
