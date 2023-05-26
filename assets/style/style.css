@@ -82,16 +82,17 @@ border: none;
 
 #headerFirstLine{
   font-size: 40px;
+  line-height: 40px;
 }
 
 #headerSecondLine{
   font-size: 62px;
-  margin-top: -42px;
+  line-height: 62px;
 }
 
 #headerThirthLine{
   font-size: 23.29px;
-  margin-top: -55px;
+  line-height: 23.29px;
 }
 header p{gap:20px}
 
@@ -377,7 +378,7 @@ a {
 }
 
 .quotes{
-  background-image: url('../imigies/clip.jpg');
+  background-image: url('../images/clip.jpg');
   background-size: cover;
   background-position: center;
  
@@ -492,7 +493,7 @@ a {
   font-size: 13px;
   font-weight: bold;
   text-align: center;
-  margin-top: 370px;
+  margin-top: 170px;
 }
 .articles h3 {
   color: #2e2e2e;
@@ -592,7 +593,6 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 169px;
 }
 .team h3 {
   color: #2e2e2e;
@@ -668,3 +668,155 @@ a {
   opacity: 1;
 }
 /* rosa */
+
+.lastProject {
+  margin-top: 144px;
+  margin-bottom: 55px;
+  font-size: 75px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #2E2E2E;
+}
+.lastRow {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.lastFilters {
+  width: 240px;
+  height: 401px;
+  background: #15263E 0% 0% no-repeat padding-box;
+}
+.lastContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 900px
+}
+.lastContent > div {
+  width: 300px;
+  height: 350px;
+  background-color: #555555;
+}
+.lastContent > div:nth-child(2) {
+  background: #848484;
+}
+.lastContent > div:nth-child(4) {
+  background: #848484;
+}
+.lastContent > div:nth-child(6) {
+  background: #848484;
+}
+.lastContent > div:focus {
+  background: #000000;
+}
+.last-content {
+  display: none;
+  text-align: center;
+}
+.show {
+  display: block;
+  background-color: rgba(0, 0, 0, 80%);
+  height: 100%;
+  color: #fff;
+}
+.lastUl {
+  list-style-type: none;
+  margin: 51px 71px 59px 59px;
+}
+.lastUl > li {
+  display: inline-block;
+  line-height: 20px;
+  margin: 12px 0px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Glacial Indifference';
+  color: #FFFFFF;
+  position: relative;
+}
+.lastUl > .active-li {
+  color: #E93656;
+}
+.lastUl > .active-li::after {
+  content: "";
+  width: 85px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  margin-left: 15px;
+  background: #E93656;
+}
+.contactBg {
+  margin-top: 155px;
+  background: url('../images/map.jpg') no-repeat;
+  width: 100%;
+  height: 660px;
+  position: relative;
+}
+.contactBgShade {
+  background: #000000;
+  opacity: 0.71;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.contactTitle {
+  position: relative;
+  top: 152px;
+  text-align: center;
+  z-index: 1;
+  font-size: 45px;
+  font-family: 'Jaapokki';
+  color: #FFFFFF;
+}
+.contactDescr {
+  position: relative;
+  top: 155px;
+  text-align: center;
+  z-index: 1;
+  font-size: 17px;
+  font-family: 'Roboto-light';
+  color: #EEEEEE;
+}
+.contactForm {
+  position: relative;
+  top:200px
+}
+.contactForm > form > button {
+  all: unset;
+  background: #DAAF1B00;
+  border: 2px solid #E93656;
+  color: #E93656;
+  cursor: pointer;
+}
+.contactModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}

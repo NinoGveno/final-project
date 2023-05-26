@@ -23,16 +23,13 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Glacial Indifference';
-    src: url('GlacialIndifference-Bold.eot');
-    src: url('GlacialIndifference-Bold.eot?#iefix') format('embedded-opentype'),
-        url('GlacialIndifference-Bold.woff2') format('woff2'),
-        url('GlacialIndifference-Bold.woff') format('woff'),
-        url('GlacialIndifference-Bold.ttf') format('truetype'),
-        url('GlacialIndifference-Bold.svg#GlacialIndifference-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'Glacial Indifference Bold';
+    src: url('../fonts/GlacialIndifference-Bold.eot');
+    src: url('../fonts/GlacialIndifference-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GlacialIndifference-Bold.woff2') format('woff2'),
+        url('../fonts/GlacialIndifference-Bold.woff') format('woff'),
+        url('../fonts/GlacialIndifference-Bold.ttf') format('truetype'),
+        url('../fonts/GlacialIndifference-Bold.svg#GlacialIndifference-Bold') format('svg')
 }
 @font-face {
     font-family: 'Jaapokki';
@@ -42,9 +39,6 @@
         url('../fonts/Jaapokki-Regular.woff') format('woff'),
         url('../fonts/Jaapokki-Regular.ttf') format('truetype'),
         url('../fonts/Jaapokki-Regular.svg#Jaapokki-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 @font-face {
     font-family: 'Muli';
@@ -66,9 +60,6 @@
         url('../fonts/Roboto-Light.woff') format('woff'),
         url('../fonts/Roboto-Light.ttf') format('truetype'),
         url('../fonts/Roboto-Light.svg#Roboto-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -130,9 +121,6 @@
         url('../fonts/GlacialIndifference-Regular.woff') format('woff'),
         url('../fonts/GlacialIndifference-Regular.ttf') format('truetype'),
         url('../fonts/GlacialIndifference-Regular.svg#GlacialIndifference-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 @font-face {
     font-family: 'Roboto';
