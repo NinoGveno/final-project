@@ -585,96 +585,86 @@ a {
 }
 
 /* rosa */
-.rosa{
-  width: 100%;
-  display: flex;
-  overflow: hidden;
-  gap: 80px;
+.team h6 {
+  color: #2ed279;
+  font-size: 14px;
+  font-weight: bold;
   justify-content: center;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 176px;
-}
-.rosa-title{
-  display: inline-block;
-  margin: auto;
-  font-family: "Glacialindifference bold";
-  font-size: 70px;
-  color: #262526;
-}
-.rosa-wrapper{
-  
-  display: grid;
-  grid-template-columns: 230px 230px 230px 230px 230px ;
-  max-width: 1170px;
-  width: 100%;
-  margin: auto;
-opacity: 0;
-
-}
-.rosa-wrapper.action{
-  opacity: 1;
-  display: grid;
-  grid-template-columns: 230px 230px 230px 230px 230px ;
-  max-width: 1170px;
-  width: 100%;
-  margin: auto;
- 
-
-
-  animation-name: rosa2 ;
-  animation-duration: 3s;
-}
-
-.rosa-box{
-  max-width: 230px;
-  width: 100%;
-  transition: all.3s;
-}
-.rosa-box{
-  max-width: 230px;
-  width: 100%;
-  height: 110px;
-  transition: all.3s;
-
-}
-
-.rosa-box-hover{
-  display: none;
-  transition: all.3s;
-}
-.rosa-box-close{
-  display: flex;
-  justify-content: center;
-  transition: all.3s;
-}
-
-.rosa-box-hover{
+  align-items: center;
   text-align: center;
-  cursor: pointer;
-  transition: all.3s;
-  max-height: 110px;
+  margin-top: 169px;
 }
-.rosa-box:hover .rosa-box-hover{
-  display: block;
-  border: 1px solid #E93656;
-  padding: 20px;
-  border-radius: 5px;
+.team h3 {
+  color: #2e2e2e;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 
+.team .details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: flex-start; */
+  text-align: center;
+  gap: 44px;
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+  margin-top: 121px;
 }
-.rosa-box:hover .rosa-box-close{
-  display: none;
-  
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-.rosa-para{
-  font-size: 13px;
-  color: #626262;
-  font-family: "Roboto light";
+
+#logo {
+  width: 100px;
+  height: 100px;
+  transition: opacity 0.3s ease;
 }
-.rosa-name{
-  font-family: "Poppins semi Bold";
-  font-size: 16px;
+
+#logo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border: 4px solid #e93656;
+  max-width: 230px;
+  width: 100%;
+  height: 190px;
+}
+
+#logo-text h6 {
   color: #161616;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 44px;
 }
 
+#logo-text p {
+  color: #626262;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 44px;
+}
+
+.logo-container:hover #logo {
+  opacity: 0;
+}
+
+.logo-container:hover #logo-text {
+  opacity: 1;
+}
 /* rosa */
